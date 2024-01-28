@@ -592,3 +592,254 @@ body {
 .tipo-de-cuenta{
     display: none;
 }
+
+.header-tipo-de-moneda{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.texto-tipo-moneda{
+    display: flex;
+    margin-left: 50px;
+}
+
+.icono-tipo-moneda{
+    color:#03318C;
+    font-size: 70px;
+    margin-right: 30px;
+}
+
+.parrafos-tipo-moneda h2{
+    color:gray;
+}
+.parrafos-tipo-moneda p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+.boton-volver{
+    color:black;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 14px;
+    height: 40px;
+    width: 120px;
+    margin-right: 40px;
+}
+.volver{
+    padding-right:10px;
+}
+.main-tipo-moneda{
+    margin-top: 180px;
+}
+
+.retirar-soles{
+    height: 350px;
+    width: 350px;
+    background-color: #03318C;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.retirar-dolares{
+    height: 350px;
+    width:  350px;
+    background-color: #0F5AF2;
+    border-radius: 10px;
+}
+
+.main-tipo-moneda{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.retirar-soles, .retirar-dolares{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.icono-moneda{
+    color:white;
+    font-size: 60px;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.retirar-soles p{
+    color:white;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.retirar-dolares p{
+    color:white;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.separador-soles-dolares{
+    color:white;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 4px;
+    background-color: white;
+}
+
+.tipo-moneda{
+    display: none;
+}
+
+.header-ingresar-monto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-volver{
+    color:#03318C;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.texto-header{
+    margin-top: 50px;
+}
+
+.icono-volver{
+    padding-right: 20px;
+}
+
+.icono-retiro-dinero{
+    margin-bottom: 50px;
+    color:#0F5AF2;
+    font-size: 80px;
+}
+
+.texto-header{
+    margin-left: 70px;
+}
+
+.texto-header{
+    display: flex;
+
+}
+
+.parrafo-header p{
+    padding-left: 40px;
+    
+}
+.parrafo-header h2{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 25px;
+    color:black;
+    font-weight: normal;
+}
+
+.informacion{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.informacion-horario{
+    margin-left: 100px;
+}
+
+.informacio-billete p{
+   color:#0F5AF2;
+   font-size: 35px;
+}
+
+.billetes-disponible{
+    display: flex;
+    justify-content: center;
+}
+
+.billete-20{
+    margin-right: 50px;
+}
+
+.billete-20, .billete-50{
+    color:#03318C;
+    margin-top: 10px;
+    font-size: 30px;
+    
+}
+
+.informacion-horario{
+    display: flex;
+}
+
+.icono-reloj{
+    color:#00fed4;
+    font-size: 45px;
+    padding-right: 50px;
+
+}
+
+.texto-horario p{
+    color:#00fed4;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.texto-horario span {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.monto-cuenta{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;   
+}
+.monto-retirar{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px
+}
+
+.monto-20 , .monto-50, .monto-100, .monto-150{
+    height: 100px;
+    width: 200px;
+    background-color: #03318C;
+    border-radius: 10px;
+    color:white;
+    font-size: 30px;
+}
+
+.parrafo-monto{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.monto{ 
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input-monto{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #0F5AF2;
+    height: 60px;
+    width: 250px;
+    border-radius: 12px;
+    color:gray;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.boton-confimrar{
+    background-color: #f5f5f5;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+}
